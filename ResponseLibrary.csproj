@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<Title>Response Library</Title>
+	<PackageId>ResponseLibrary</PackageId>
+	<Authors>MAG</Authors>
+	<Company>None</Company>
+	<Description>This package provides response wrappers that centralize responses from services.</Description>
+	<RepositoryUrl>https://github.com/SilveiraMHO/MCSC6002_ResponseLibrary</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
