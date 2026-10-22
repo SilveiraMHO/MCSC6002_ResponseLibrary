@@ -1,4 +1,6 @@
-﻿namespace ResponseLibrary.Models.Responses.Inventory
+﻿using ResponseLibrary.Models.Responses.Product;
+
+namespace ResponseLibrary.Models.Responses.Inventory
 {
     public class InventoryItemResponse
     {
@@ -7,5 +9,7 @@
         public string Barcode { get; set; }
         public string Status { get; set; }
         public DateTime CreatedOn { get; set; }
+
+        public ProductResponse Product { get; set; }
     }
 }
